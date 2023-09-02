@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/pokedex/assets/css/normalize.css">
+  <link rel="stylesheet" href="/pokedex/assets/css/global.css">
+  <link rel="stylesheet" href="/pokedex/assets/css/pokemon-details.css">
+</head>
+<body>
+  <section class="container-pokemon-details">
+    <div class="top">
+      <header class="header-navigation">
+        <div class="go-back"><i class="bi bi-arrow-left"></i></div>
+        <div class="favoriteIcon"><i class="bi bi-heart"></i></div>
+      </header>
+      <div class="pokemon-content">
+        <div class="description">
+          <div class="name">Bulbasaur</div>
+          <ul class="list-categories">
+            <li>categories</li>
+          </ul>
+        </div>
+        <div class="pokemon-id">
+          #001
+        </div>
+      </div>
+      <div class="pokemon-image">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/3.png" alt="pokemon-image">
+      </div>
+    </div>
+    <div class="down">
+      <ul class="list-datails-pokemons">
+        <li class="details-menu">About</li>
+        <li class="details-menu disabled">Base Stats</li>
+        <li class="details-menu disabled">Evolution</li>
+        <li class="details-menu disabled">Moves</li>
+      </ul>
+      <div class="list-selected-menu"></div>
+      <pre ><code class="content-selected"></code></pre>
+    </div>
+  </section>
+  <script src="assets/javascript/poke-api.js" type="module"></script>
+  <script src="assets/javascript/pokemon-details.js" type="module"></script>
+</body>
+</html>
